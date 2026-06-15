@@ -1,0 +1,5 @@
+server
+server.exe
+*.test
+coverage.out
+go.sum

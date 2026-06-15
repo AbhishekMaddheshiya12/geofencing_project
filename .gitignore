@@ -1,0 +1,27 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Go
+backend/server
+backend/server.exe
+backend/*.test
+backend/coverage.out
+backend/go.sum
+
+# Node / Vite
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/*.log
+
+# Env files
+.env
+.env.local
+*.env
+
+# Docker
+postgis_data/
