@@ -37,7 +37,7 @@ func (s *Server) Routes() http.Handler {
 	r.Use(Recover)
 	r.Use(Timing)
 
-	r.Get("/healthz", func(w http.ResponseWriter, r *http.Request) {
+	r.Get("/", func(w http.ResponseWriter, r *http.Request) {
 		WriteJSON(w, r, http.StatusOK, map[string]any{"status": "ok"})
 	})
 
